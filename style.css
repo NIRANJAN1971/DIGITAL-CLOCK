@@ -1,0 +1,54 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Orbitron|Text+Me+One");
+
+/* Basic reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  background: url("https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fGVsZWN0cmljfGVufDB8fHx8MTY5MDgwODcwMg&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center/cover;
+}
+
+/* Basic styling for the clock container */
+.clock {
+  width: 350px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+/* Display area of the clock */
+.display {
+  color: #00ffcc;
+}
+
+/* Styling for the time display */
+.timeDisplay {
+  font-size: 60px;
+  color: #00ffcc;
+  text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timeDisplay .dot {
+  margin: 0 5px;
+  color: #00ffcc;
+}
+
+.timeDisplay .format {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000;
+}
